@@ -16,6 +16,10 @@ class bcolors:
 
 def clearcmd():
     os.system('cls' if os.name == 'nt' else 'clear')
+
+def discord():
+    clearcmd()
+    print("starting....")
     
 def variant1(token):
     with open('tokens.txt', 'r') as tokens:
