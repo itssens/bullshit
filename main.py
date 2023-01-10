@@ -1,3 +1,1 @@
-from modules.discord import discord as lmao
-
-lmao()
+import modules.sense
